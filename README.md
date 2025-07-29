@@ -19,13 +19,12 @@ Equiluna/
 ```
 
 ## System Requirements
-• Microcontroller: Teensy 3.6
-
-• Sensor: Adafruit BNO055 IMU
-• Actuators: 4x ERM vibration motors
-• Speaker: External speaker (e.g., JBL GO or similar)
-• Display: Projector or external monitor
-• Computer: Tested on macOS and Linux (Ubuntu 22.04)
+	•	Microcontroller: Teensy 3.6
+	•	Sensor: Adafruit BNO055 IMU
+	•	Actuators: 4x ERM vibration motors
+	•	Speaker: External speaker (e.g., JBL GO or similar)
+	•	Display: Projector or external monitor
+	•	Computer: Tested on macOS and Windows
 
 ## Software Dependencies
 • Processing 3.5.4 (or later)
