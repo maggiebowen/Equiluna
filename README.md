@@ -6,7 +6,6 @@ Supplementary Code for CHItaly 2025 Submission
 
 This repository contains the full source code for Equiluna, a balance training system that combines a custom-built mediolateral balance board with a 2D video game interface. The system evaluates user performance under different sensory feedback conditions (auditory, haptic, audio-haptic) using real-time IMU data. This codebase is provided to support the reproducibility and extension of our CHItaly 2025 study.
 
-<pre>
 ## Repo Structure
 ```text
 Equiluna/
@@ -18,7 +17,6 @@ Equiluna/
 │   └── image/              # Visual assets and icons for gameplay
 ├── README.md               # This documentation file
 ```
-</pre>
 
 ## System Requirements
 	•	Microcontroller: Teensy 3.6
