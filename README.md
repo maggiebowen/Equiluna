@@ -1,4 +1,4 @@
-# Equiluna: Multisensory Balance Training Game
+# Equiluna: Multisensory Balance Board Video Game
 
 Supplementary Code for CHItaly 2025 Submission
 
