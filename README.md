@@ -17,7 +17,7 @@ Equiluna/
 │   ├── data/               # Fonts used in the game UI
 │   └── image/              # Visual assets and icons for gameplay
 ├── README.md               # This documentation file
-'''
+```
 </pre>
 
 ## System Requirements
