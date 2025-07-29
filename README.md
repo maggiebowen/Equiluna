@@ -7,14 +7,14 @@ Overview
 This repository contains the full source code for Equiluna, a balance training system that combines a custom-built mediolateral balance board with a 2D video game interface. The system evaluates user performance under different sensory feedback conditions (auditory, haptic, audio-haptic) using real-time IMU data. This codebase is provided to support the reproducibility and extension of our CHItaly 2025 study.
 
 Repo Structure
-balance-board-MIS/
-├── auditory_files/         # all the PureData files
-├── results/                # experiment results with a folder per participant
-├── sensors_and_actuators/  # Arduino code for IMU and haptic actuators
-├── visual/                 # Processing code for the entire video game
-    ── data/                # fonts for the game home screen
-    ── image/               # game's visual assets
-├── README.md               # this file
+Equiluna/
+├── auditory_files/         # Pure Data patches for auditory feedback
+├── results/                # Participant data from experimental trials
+├── sensors_and_actuators/  # Arduino code for IMU input and haptic motor control
+├── visual/                 # Processing sketch for the 2D balance game
+│   ├── data/               # Fonts used in the game UI
+│   └── image/              # Visual assets and icons for gameplay
+├── README.md               # This documentation file
 
 System Requirements
 	•	Microcontroller: Teensy 3.6
