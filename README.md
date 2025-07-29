@@ -20,6 +20,7 @@ Equiluna/
 
 ## System Requirements
 • Microcontroller: Teensy 3.6
+
 • Sensor: Adafruit BNO055 IMU
 • Actuators: 4x ERM vibration motors
 • Speaker: External speaker (e.g., JBL GO or similar)
