@@ -19,42 +19,42 @@ Equiluna/
 ```
 
 ## System Requirements
-	•	Microcontroller: Teensy 3.6
-	•	Sensor: Adafruit BNO055 IMU
-	•	Actuators: 4x ERM vibration motors
-	•	Speaker: External speaker (e.g., JBL GO or similar)
-	•	Display: Projector or external monitor
-	•	Computer: Tested on macOS and Windows
+- Microcontroller: Teensy 3.6
+- Sensor: Adafruit BNO055 IMU
+- Actuators: 4x ERM vibration motors
+- Speaker: External speaker (e.g., JBL GO or similar)
+- Display: Projector or external monitor
+- Computer: Tested on macOS and Windows
 
 ## Software Dependencies
-• Processing 3.5.4 (or later)
-• Required libraries: serial, controlP5 (install via Processing IDE)
-• Arduino IDE (1.8+)
-• Teensyduino plugin required for Teensy 3.6
-• Adafruit BNO055 library
-• Pure Data (Pd) (0.52+)
-• Required for real-time sound synthesis
+- Processing 3.5.4 (or later)
+- Required libraries: serial, controlP5 (install via Processing IDE)
+- Arduino IDE (1.8+)
+- Teensyduino plugin required for Teensy 3.6
+- Adafruit BNO055 library
+- Pure Data (Pd) (0.52+)
+- Required for real-time sound synthesis
 
 ## Setup Instructions
 1. IMU + Balance Board
-• Mount the BNO055 IMU ~16 cm from center under the skateboard deck.
-• Connect the IMU to the Teensy 3.6 microcontroller.
+- Mount the BNO055 IMU ~16 cm from center under the skateboard deck.
+- Connect the IMU to the Teensy 3.6 microcontroller.
 2. Upload Arduino Sketch
-• Open the sketch in /Arduino/ and upload to the Teensy using Arduino IDE.
-• Ensure correct COM port and board settings.
+- Open the sketch in /Arduino/ and upload to the Teensy using Arduino IDE.
+- Ensure correct COM port and board settings.
 3. Launch Pure Data Patch
-• Open PureData/audio-feedback.pd.
-• Enable DSP (toggle “Audio ON”) and ensure proper audio output.
+- Open PureData/audio-feedback.pd.
+- Enable DSP (toggle “Audio ON”) and ensure proper audio output.
 4. Run Game in Processing
-• Open /Processing/EquilunaGame.pde.
-• Start the game. The astronaut avatar should respond to board tilt.
-• Feedback will activate based on deviation from the path. Remember to set the feedback type to TRUE before running.
+- Open /Processing/EquilunaGame.pde.
+- Start the game. The astronaut avatar should respond to board tilt.
+- Feedback will activate based on deviation from the path. Remember to set the feedback type to TRUE before running.
 
 ## Gameplay Instructions
-• Players stand barefoot on the balance board.
-• Lean left/right to guide the astronaut avatar along a predefined path.
-• Feedback conditions (None, Haptic, Auditory, Audio-Haptic) can be changed in the code.
-• Performance is measured using two metrics: Accuracy (on-path adherence) and Similarity (trajectory smoothness).
+- Players stand barefoot on the balance board.
+- Lean left/right to guide the astronaut avatar along a predefined path.
+- Feedback conditions (None, Haptic, Auditory, Audio-Haptic) can be changed in the code.
+- Performance is measured using two metrics: Accuracy (on-path adherence) and Similarity (trajectory smoothness).
 
 ## Citation
 
