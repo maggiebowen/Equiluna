@@ -2,11 +2,13 @@
 
 Supplementary Code for CHItaly 2025 Submission
 
-Overview
+## Overview
 
 This repository contains the full source code for Equiluna, a balance training system that combines a custom-built mediolateral balance board with a 2D video game interface. The system evaluates user performance under different sensory feedback conditions (auditory, haptic, audio-haptic) using real-time IMU data. This codebase is provided to support the reproducibility and extension of our CHItaly 2025 study.
 
-Repo Structure
+<pre>
+## Repo Structure
+```text
 Equiluna/
 ├── auditory_files/         # Pure Data patches for auditory feedback
 ├── results/                # Participant data from experimental trials
@@ -15,8 +17,10 @@ Equiluna/
 │   ├── data/               # Fonts used in the game UI
 │   └── image/              # Visual assets and icons for gameplay
 ├── README.md               # This documentation file
+'''
+</pre>
 
-System Requirements
+## System Requirements
 	•	Microcontroller: Teensy 3.6
 	•	Sensor: Adafruit BNO055 IMU
 	•	Actuators: 4x ERM vibration motors
@@ -24,7 +28,7 @@ System Requirements
 	•	Display: Projector or external monitor
 	•	Computer: Tested on macOS and Linux (Ubuntu 22.04)
 
-Software Dependencies
+## Software Dependencies
 	•	Processing 3.5.4 (or later)
 	•	Required libraries: serial, controlP5 (install via Processing IDE)
 	•	Arduino IDE (1.8+)
@@ -33,7 +37,7 @@ Software Dependencies
 	•	Pure Data (Pd) (0.52+)
 	•	Required for real-time sound synthesis
 
-Setup Instructions
+## Setup Instructions
 	1.	IMU + Balance Board
 	•	Mount the BNO055 IMU ~16 cm from center under the skateboard deck.
 	•	Connect the IMU to the Teensy 3.6 microcontroller.
@@ -48,13 +52,13 @@ Setup Instructions
 	•	Start the game. The astronaut avatar should respond to board tilt.
 	•	Feedback will activate based on deviation from the path.
 
-Gameplay Instructions
+## Gameplay Instructions
 	•	Players stand barefoot on the balance board.
 	•	Lean left/right to guide the astronaut avatar along a predefined path.
 	•	Feedback conditions (None, Haptic, Auditory, Audio-Haptic) can be toggled in the interface.
 	•	Performance is measured using two metrics: Accuracy (on-path adherence) and Similarity (trajectory smoothness).
 
-Citation
+## Citation
 
 If you use or reference this system in your work, please cite:
 
