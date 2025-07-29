@@ -40,13 +40,13 @@ Equiluna/
 - Mount the BNO055 IMU ~16 cm from center under the skateboard deck.
 - Connect the IMU to the Teensy 3.6 microcontroller.
 2. Upload Arduino Sketch
-- Open the sketch in /Arduino/ and upload to the Teensy using Arduino IDE.
+- Open the sketch in /sensors_and_actuators/ and upload to the Teensy using Arduino IDE.
 - Ensure correct COM port and board settings.
 3. Launch Pure Data Patch
-- Open PureData/audio-feedback.pd.
+- Open auditory_files/audio-feedback.pd.
 - Enable DSP (toggle “Audio ON”) and ensure proper audio output.
 4. Run Game in Processing
-- Open /Processing/EquilunaGame.pde.
+- Open /visual/main.pde.
 - Start the game. The astronaut avatar should respond to board tilt.
 - Feedback will activate based on deviation from the path. Remember to set the feedback type to TRUE before running.
 
@@ -54,7 +54,7 @@ Equiluna/
 - Players stand barefoot on the balance board.
 - Lean left/right to guide the astronaut avatar along a predefined path.
 - Feedback conditions (None, Haptic, Auditory, Audio-Haptic) can be changed in the code.
-- Performance is measured using two metrics: Accuracy (on-path adherence) and Similarity (trajectory smoothness).
+- Performance is measured using two metrics: Accuracy (on-path adherence) and Similarity (trajectory smoothness) which are exported to a csv automatically.
 
 ## Citation
 
